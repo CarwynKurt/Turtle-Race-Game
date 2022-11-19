@@ -57,7 +57,7 @@ racer1.pendown()
 # 6. Input Racer 2
 racer2 = Turtle()
 racer2.speed(0)
-racer2.color("yellow")
+racer2.color("cyan")
 racer2.shape("turtle")
 racer2.turtlesize(3)
 racer2.penup()
@@ -67,7 +67,7 @@ racer2.pendown()
 # 7. Input Racer 3
 racer2 = Turtle()
 racer2.speed(0)
-racer2.color("yellow")
+racer2.color("purple")
 racer2.shape("turtle")
 racer2.turtlesize(3)
 racer2.penup()
@@ -75,6 +75,14 @@ racer2.goto(-400, -40)
 racer2.pendown()
 
 # 8. Input Racer 4
+racer2 = Turtle()
+racer2.speed(0)
+racer2.color("yellow")
+racer2.shape("turtle")
+racer2.turtlesize(3)
+racer2.penup()
+racer2.goto(-400, -160)
+racer2.pendown()
 # 9. Move the Turtle
 # 10 Setup Winner
 # 11 Monitor Distance
