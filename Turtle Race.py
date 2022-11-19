@@ -95,19 +95,26 @@ for i in range(210):
 winner = Turtle()
 winner.hideturtle()
 winner.penup()
-winner.setx()
+winner.setx(0)
 winner.sety(0)
 
-racerMap = {"Red":racer1, "Yellow":racer2, "Cyan":racer3, "Purple":racer4}
+racerMap = {"Red":racer1, "Cyan":racer2, "Purple":racer3, "Yellow":racer4}
 keys = list(racerMap.keys())
+
 # 11 Monitor Distance
 winnerColor = ""
 for eachColor in keys:
-    eachColor = raceMap[eachColor]
+    eachRacer = racerMap[eachColor]
     if(eachRacer.xcor()>winner.xcor()):
         winner = eachRacer
         winnerColor = eachColor
+
 # 12 Display the winner
-
-
+winnerMessage = "Winner: "+winnerColor+" Turtle"
+turtle.color("white")
+turtle.speed(0)
+turtle.penup()
+turtle.goto(-150, 20)
+turtle.write(winnerMessage, font=("Times New Roman", 20, "bold"))
+turtle.hideturtle()
 turtle.done()
