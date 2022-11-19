@@ -27,7 +27,23 @@ tr.forward(700)
 tr.right(90)
 tr.forward(700)
 tr.end_fill()
+
 # 4. Design Finish Line
+square_size = 20
+finish_line = 300
+
+tr.color("black")
+tr.shape("square")
+tr.penup()
+
+for i in range(14):
+    tr.goto(finish_line, (260 - (i * square_size * 2)))
+    tr.stamp()
+
+for j in range(13):
+    tr.goto(finish_line + square_size, ((260 - square_size) - (j * square_size * 2)))
+    tr.stamp()
+
 # 5. Input Racer 1
 # 6. Input Racer 2
 # 7. Input Racer 3
