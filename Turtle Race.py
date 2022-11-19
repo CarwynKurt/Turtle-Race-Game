@@ -109,7 +109,7 @@ for eachColor in keys:
         winner = eachRacer
         winnerColor = eachColor
 
-# 12 Display the winner
+# 12 Display the Winner
 winnerMessage = "Winner: "+winnerColor+" Turtle"
 turtle.color("white")
 turtle.speed(0)
