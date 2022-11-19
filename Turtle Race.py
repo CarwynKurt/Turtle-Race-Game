@@ -92,6 +92,14 @@ for i in range(210):
     racer4.forward(randint(1, 5))
 
 # 10 Setup Winner
+winner = Turtle()
+winner.hideturtle()
+winner.penup()
+winner.setx()
+winner.sety(0)
+
+racerMap = {"Red":racer1, "Yellow":racer2, "Cyan":racer3, "Purple":racer4}
+keys = list(racerMap.keys())
 # 11 Monitor Distance
 # 12 Display the winner
 
