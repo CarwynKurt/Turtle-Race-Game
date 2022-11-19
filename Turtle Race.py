@@ -55,6 +55,15 @@ racer1.goto(-400, 200)
 racer1.pendown()
 
 # 6. Input Racer 2
+racer2 = Turtle()
+racer2.speed(0)
+racer2.color("yellow")
+racer2.shape("turtle")
+racer2.turtlesize(3)
+racer2.penup()
+racer2.goto(-400, 80)
+racer2.pendown()
+
 # 7. Input Racer 3
 # 8. Input Racer 4
 # 9. Move the Turtle
