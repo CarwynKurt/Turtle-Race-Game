@@ -65,25 +65,32 @@ racer2.goto(-400, 80)
 racer2.pendown()
 
 # 7. Input Racer 3
-racer2 = Turtle()
-racer2.speed(0)
-racer2.color("purple")
-racer2.shape("turtle")
-racer2.turtlesize(3)
-racer2.penup()
-racer2.goto(-400, -40)
-racer2.pendown()
+racer3 = Turtle()
+racer3.speed(0)
+racer3.color("purple")
+racer3.shape("turtle")
+racer3.turtlesize(3)
+racer3.penup()
+racer3.goto(-400, -40)
+racer3.pendown()
 
 # 8. Input Racer 4
-racer2 = Turtle()
-racer2.speed(0)
-racer2.color("yellow")
-racer2.shape("turtle")
-racer2.turtlesize(3)
-racer2.penup()
-racer2.goto(-400, -160)
-racer2.pendown()
+racer4 = Turtle()
+racer4.speed(0)
+racer4.color("yellow")
+racer4.shape("turtle")
+racer4.turtlesize(3)
+racer4.penup()
+racer4.goto(-400, -160)
+racer4.pendown()
+
 # 9. Move the Turtle
+for i in range(210):
+    racer1.forward(randint(1, 5))
+    racer2.forward(randint(1, 5))
+    racer3.forward(randint(1, 5))
+    racer4.forward(randint(1, 5))
+
 # 10 Setup Winner
 # 11 Monitor Distance
 # 12 Display the winner
