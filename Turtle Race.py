@@ -45,6 +45,15 @@ for j in range(13):
     tr.stamp()
 
 # 5. Input Racer 1
+racer1 = Turtle()
+racer1.speed(0)
+racer1.color("red")
+racer1.shape("turtle")
+racer1.turtlesize(3)
+racer1.penup()
+racer1.goto(-400, 200)
+racer1.pendown()
+
 # 6. Input Racer 2
 # 7. Input Racer 3
 # 8. Input Racer 4
