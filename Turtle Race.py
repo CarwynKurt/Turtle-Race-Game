@@ -65,6 +65,15 @@ racer2.goto(-400, 80)
 racer2.pendown()
 
 # 7. Input Racer 3
+racer2 = Turtle()
+racer2.speed(0)
+racer2.color("yellow")
+racer2.shape("turtle")
+racer2.turtlesize(3)
+racer2.penup()
+racer2.goto(-400, -40)
+racer2.pendown()
+
 # 8. Input Racer 4
 # 9. Move the Turtle
 # 10 Setup Winner
