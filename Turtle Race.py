@@ -101,6 +101,12 @@ winner.sety(0)
 racerMap = {"Red":racer1, "Yellow":racer2, "Cyan":racer3, "Purple":racer4}
 keys = list(racerMap.keys())
 # 11 Monitor Distance
+winnerColor = ""
+for eachColor in keys:
+    eachColor = raceMap[eachColor]
+    if(eachRacer.xcor()>winner.xcor()):
+        winner = eachRacer
+        winnerColor = eachColor
 # 12 Display the winner
 
 
